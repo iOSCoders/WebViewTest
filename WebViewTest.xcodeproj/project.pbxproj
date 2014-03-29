@@ -22,6 +22,8 @@
 		3BCE4F2218E502C200724FE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCE4F0118E502C200724FE8 /* UIKit.framework */; };
 		3BCE4F2A18E502C200724FE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BCE4F2818E502C200724FE8 /* InfoPlist.strings */; };
 		3BCE4F2C18E502C200724FE8 /* WebViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCE4F2B18E502C200724FE8 /* WebViewTestTests.m */; };
+		3BCE4F3618E5043E00724FE8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3BCE4F3518E5043E00724FE8 /* index.html */; };
+		3BCE4F3B18E5137500724FE8 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 3BCE4F3918E5116600724FE8 /* jquery.min.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		3BCE4F2718E502C200724FE8 /* WebViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		3BCE4F2918E502C200724FE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3BCE4F2B18E502C200724FE8 /* WebViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewTestTests.m; sourceTree = "<group>"; };
+		3BCE4F3518E5043E00724FE8 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		3BCE4F3918E5116600724FE8 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +118,14 @@
 		3BCE4F0318E502C200724FE8 /* WebViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				3BCE4F3918E5116600724FE8 /* jquery.min.js */,
 				3BCE4F0C18E502C200724FE8 /* AppDelegate.h */,
 				3BCE4F0D18E502C200724FE8 /* AppDelegate.m */,
 				3BCE4F0F18E502C200724FE8 /* Main_iPhone.storyboard */,
 				3BCE4F1218E502C200724FE8 /* Main_iPad.storyboard */,
 				3BCE4F1518E502C200724FE8 /* ViewController.h */,
 				3BCE4F1618E502C200724FE8 /* ViewController.m */,
+				3BCE4F3518E5043E00724FE8 /* index.html */,
 				3BCE4F1818E502C200724FE8 /* Images.xcassets */,
 				3BCE4F0418E502C200724FE8 /* Supporting Files */,
 			);
@@ -231,6 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BCE4F3B18E5137500724FE8 /* jquery.min.js in Resources */,
+				3BCE4F3618E5043E00724FE8 /* index.html in Resources */,
 				3BCE4F1418E502C200724FE8 /* Main_iPad.storyboard in Resources */,
 				3BCE4F1918E502C200724FE8 /* Images.xcassets in Resources */,
 				3BCE4F1118E502C200724FE8 /* Main_iPhone.storyboard in Resources */,

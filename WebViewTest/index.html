@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=2.0,user-scalable=yes" />
+    </head>
+    <style>
+        .box {
+            border: thin solid black;
+        }
+    body {
+        background-color: lightcyan;
+    }
+    </style>
+    <script src="jquery.min.js"></script>
+    <script>
+        function logscale() {
+            var zoom = document.documentElement.clientWidth / window.innerWidth;
+            $('#log').html((new Date()).toTimeString());
+            $('#log').append('<br>zoom:' + zoom);
+        }
+    
+    function showstatus() {
+        $('#log').html((new Date()).toTimeString());
+        $('#log').append('<br>no status');
+    }
+    
+    $(document).ready(function() {
+                      logscale();
+                      });
+    </script>
+    <body>
+        <div id="log"></div>
+        <span class="box" onclick="window.location.href='index.html'">Reload</span>
+        <span class="box" onclick="showstatus()">Show Status</span>
+    </body>
+</html>
